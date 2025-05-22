@@ -13,12 +13,55 @@
     <meta property="og:url" content="https://www.example.com">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">  
 </head>
+<!--style pode ser 
+inline
+interno ou 
+externo
+selector é o elemento que queremos estilizar 
+por tag = nome do elemento html
+por id = identificador unico do html
+por classe = identificador que pode ser usado em mais de um elemento
+-->
+<style>
+a{
+    color: #ff0800;
+    text-decoration: none;
+}
+ul{
+    display: flex;
+    gap: 13px;
+    list-style: none;
+}
+nav{
+    position: relative;
+    bottom: 2px;
+    background-color: 
+    #020000;
+    font-size: 21px;
+    margin: 5px 0px 0px ;
+    border-top:rgb(255, 0, 0) 2px  solid;
+    border-bottom:rgb(255, 0, 0) 2px solid ;
+    padding: 3px 5px 10px 20px;
+
+     /* somente 1ª posição = todos os lados
+    somente 1ª e 2ª posição 
+    1ª = cima e baixo
+    2ª = esquerda e direita
+    */ 
+}
+
+
+
+</style>
 <body>
-    <header>
+    <header style="
+    border: 3px solid #ff3c00; 
+    background-color: #000000;
+    ">
         <h1>Portfolio do Estudante</h1>
         <h2>TI-29</h2>
     </header>
-    <nav>
+    <nav >
         <ul>
             <!-- href é um dos atributo da ancora-->
             <li>

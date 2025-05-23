@@ -82,7 +82,6 @@ figcaption{
     width: 100%;
     height: 100%;
     object-fit: cover;
-    filter:
 }
 .coluna{
     display: flex;
@@ -98,4 +97,8 @@ p{
     font-family: cursive;
     color: rgba(255, 255, 255, 0.719);
     
+}
+.direita{
+    display:flex;
+    flex-direction: row-reverse;
 }

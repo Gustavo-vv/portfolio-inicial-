@@ -5,10 +5,11 @@
 }
 body{
     font-family: 'Poppins','sans-serif';
-    background-color: rgba(52, 16, 255, 0.452);
+    background: url(../img/ceia.jpg) no-repeat center center/cover;
+    color: rgb(0, 0, 0);
 }
 header{
-    background: rgba(44, 48, 44, 0);
+    background: rgba(0, 0, 0, 0);
     justify-content: space-between;
     color: white;
     padding: 20px 0;
@@ -21,6 +22,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     padding: 0 20px;
+    text-shadow: 2px 2px 3px black;
 }
 a{
     color: white;
@@ -29,9 +31,71 @@ a{
 }
 footer{
     justify-content: space-between;
-    background: rgba(52, 16, 255, 0.452);
+    padding: 40px 0 0 0;
+    background: rgba(0, 0, 0, 0.671);
     backdrop-filter: blur(10px);
     color: white;
     justify-content: space-between;
-    border: solid 1px red;
+    border: solid 1px rgb(0, 0, 0);
+}
+.container{
+    display: flex;
+    max-width: 1900px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.041);
+    backdrop-filter: blur(5px);
+
+}
+.card{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 300px;
+    border: solid rgb(0, 0, 0);
+    filter: blur();
+    width: 100%;
+    height: 300px;
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+h1{
+    text-shadow: 2px 2px 3px black;
+
+}
+h2{
+    text-shadow: 2px 2px 3px black;
+
+}
+figcaption{
+    text-shadow: 1px 1px 3px black;
+    color: rgba(255, 255, 255, 0.781);
+}
+.hero-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter:
+}
+.coluna{
+    display: flex;
+    flex-direction: column;
+
+}
+.img{
+    width: 200px;
+    height: 200px;
+}
+p{
+    text-shadow: 1x 1x 1x rgb(255, 255, 255);
+    font-family: cursive;
+    color: rgba(255, 255, 255, 0.719);
+    
 }

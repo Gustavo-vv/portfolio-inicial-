@@ -11,9 +11,10 @@ header{
     background: rgba(44, 48, 44, 0);
     justify-content: space-between;
     color: white;
-    padding: 10px 0;
+    padding: 20px 0;
     text-align: left;
     backdrop-filter: blur(10px);
+    display: flex;
 }
 nav{
     display: flex;
@@ -25,4 +26,12 @@ a{
     color: white;
     text-decoration: none;
     padding: 10px 20px;
+}
+footer{
+    justify-content: space-between;
+    background: rgba(52, 16, 255, 0.452);
+    backdrop-filter: blur(10px);
+    color: white;
+    justify-content: space-between;
+    border: solid 1px red;
 }

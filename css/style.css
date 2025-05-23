@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    width: 100%;
+    background-color: #ececec;
+    
+}
+
+
+
+a{
+    color: #ff0800;
+    text-decoration: none;
+}
+ul{
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+nav{
+    position: relative;
+    bottom: 1px;
+    background-color: 
+    #020000;
+    font-size: 21px;
+    margin: 1px 0px 0px ;
+    border-top:rgb(0, 0, 0) 1px  solid;
+    border-bottom:rgb(255, 0, 0) 1px solid ;
+    padding: 3px 5px 5px 20px;
+    border: solid 3px red;
+    
+     /* somente 1ª posição = todos os lados
+    somente 1ª e 2ª posição 
+    1ª = cima e baixo
+    2ª = esquerda e direita
+    */ 
+}
+header{
+    border: 1px solid #a10707; 
+    background-color: #000000;
+    color: #cf0902cb;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+    
+}
+main{
+    display: flex;
+    border: rgba(255, 0, 0, 0.993) solid 1px;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+}
+section{
+    border: rgb(2, 2, 2) solid 1px ;
+    width: 100%;
+    height: 100%;
+    
+
+
+
+}
+article{
+    border: #ff0000 solid 1px;
+    
+    
+}
+#paragrafo-zero{
+    background-color: #8a0101bb;
+    color: #000000;
+    border-radius: 30px 30px 2 2;
+    padding: 20px;
+    box-shadow: 6px 4px 8px 1px ;
+}
+/* class= .*/
+.titulo-personalizado{
+    font-size: 2.0rem;
+    color: blue;
+    border-top: solid 3px red
+}
+h1{
+    font-size: 2rem;
+    border-bottom: solid 3px rgb(5, 5, 5);
+    color: rgb(255, 0, 0);
+    background-color: #000000;
+}
+button{
+    height: 40px;
+    width: 80px;
+    background-color: rgb(255, 0, 0);
+    color
+}
+#form-contato{
+    height: 250px;
+    background-color: gray
+
+}
+
+aside{
+    background-color: gray;
+    font-size: 25px;
+}
+.Limpar{
+    background-color: red;
+}
+.Enviar{
+    background-color: green;
+}
